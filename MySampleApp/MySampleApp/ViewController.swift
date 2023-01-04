@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    func addNumbers(val1: Int, val2: Int)-> Int {
+           return val1 + val2
+    }
 }
 

@@ -32,5 +32,10 @@ final class MySampleAppTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testAddNumbers() {
+            let vc = ViewController()
+            XCTAssertEqual(vc.addNumbers(val1: 2, val2: 4), 6,"Failed to add numbers")
+    }
 
 }
